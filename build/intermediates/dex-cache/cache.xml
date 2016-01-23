@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/ruben/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/media/ruben/data/master/UDL-Master/projects/tic-projects/QrR_Sprint3/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-f5b75eb6e6cb56f648967168e7e529afed3359f2.jar" />
+    </item>
+    <item
+        jar="/media/ruben/data/master/UDL-Master/projects/tic-projects/QrR_Sprint3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/media/ruben/data/master/UDL-Master/projects/tic-projects/QrR_Sprint3/app/build/intermediates/pre-dexed/debug/classes-c3d05d7a0d7a0b9d5d417765582c40de07b4007e.jar" />
+    </item>
+    <item
+        jar="/media/ruben/data/master/UDL-Master/projects/tic-projects/QrR_Sprint3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/media/ruben/data/master/UDL-Master/projects/tic-projects/QrR_Sprint3/app/build/intermediates/pre-dexed/debug/classes-90e95e17cf39f08ece1a8b3d45ddc0463f337bd7.jar" />
+    </item>
+    <item
+        jar="/media/ruben/data/master/UDL-Master/projects/tic-projects/QrR_Sprint3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/media/ruben/data/master/UDL-Master/projects/tic-projects/QrR_Sprint3/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-24398019e6c0ea834ef822518045bafa0ddf8d08.jar" />
+    </item>
+
+</items>

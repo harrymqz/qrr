@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="api_base_url">http://alumnes-grp01.udl.cat/server-qrr-web/api/rest</string>
+    <string name="api_product_id">id</string>
+    <string name="api_product_name">name</string>
+    <string name="api_product_desc">description</string>
+    <string name="api_product_price">price</string>
+    <string name="api_product_img">image</string>
+    <string name="api_product_rst">restaurant</string>
+    <string name="api_product_ings">ingredients</string>
+    <string name="api_ingredient_id">id</string>
+    <string name="api_ingredient_name">name</string>
+</resources>

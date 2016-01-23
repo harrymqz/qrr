@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView android:id="@+id/question1"
+        android:text="@string/question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20px"/>
+
+    <RadioGroup android:id="@+id/rdbGpVote1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/question1"
+        android:layout_marginBottom="40px">
+
+        <RadioButton android:id="@+id/vote11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/starStyle"
+            android:text="1" />
+
+        <RadioButton android:id="@+id/vote12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/starStyle"
+            android:text="2" />
+
+        <RadioButton android:id="@+id/vote13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/starStyle"
+            android:text="3" />
+
+        <RadioButton android:id="@+id/vote14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/starStyle"
+            android:text="4" />
+
+        <RadioButton android:id="@+id/vote15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/starStyle"
+            android:text="5" />
+
+    </RadioGroup>
+
+    <TextView android:id="@+id/question2"
+        android:text="@string/question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rdbGpVote1"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup android:id="@+id/rdbGpVote2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/question2"
+        android:layout_marginBottom="40px">
+
+        <RadioButton android:id="@+id/vote21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/starStyle"
+            android:text="1" />
+
+        <RadioButton android:id="@+id/vote22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/starStyle"
+            android:text="2" />
+
+        <RadioButton android:id="@+id/vote23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/starStyle"
+            android:text="3" />
+
+        <RadioButton android:id="@+id/vote24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/starStyle"
+            android:text="4" />
+
+        <RadioButton android:id="@+id/vote25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/starStyle"
+            android:text="5" />
+
+    </RadioGroup>
+
+    <Button android:id="@+id/payment"
+        android:text="@string/payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rdbGpVote2"
+        android:layout_centerHorizontal="true"
+        android:onClick="payment"/>
+
+
+    </RelativeLayout>

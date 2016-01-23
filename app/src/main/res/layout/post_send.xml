@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/chronometer"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#147"
+        android:textColor="#fff"
+        android:gravity="center" />
+
+    <Button android:id="@+id/stop"
+        android:text="@string/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight = "true"
+        android:onClick="stop"/>
+
+    <ListView android:id="@+id/ListProducts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stop" />
+
+    <TextView android:id="@+id/Price"
+        android:text="@string/price"
+        android:textSize="80px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ListProducts"
+        android:layout_alignParentLeft = "true"
+        android:layout_marginLeft = "20px"/>
+
+    <Button android:id="@+id/Add"
+        android:text="@string/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Price"
+        android:layout_alignParentLeft = "true"
+        android:layout_marginLeft = "20px"
+        android:onClick="addProduct"/>
+
+    <Button android:id="@+id/payment"
+        android:text="@string/pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Price"
+        android:layout_alignParentRight = "true"
+        android:layout_marginRight = "20px"
+        android:onClick="paymentOrder"/>
+
+</RelativeLayout>

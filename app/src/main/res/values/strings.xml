@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">QrR</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_gmaps">Google Maps</string>
+    <string name="read_qr">Read QR</string>
+    <string name="product">Pizza Margarita</string>
+    <string name="info_product">Más Información</string>
+    <string name="title_ingredients">Ingredientes</string>
+    <string name="ingredients">Ingrediente1, ingrediente 2, ingrediente 3, etc.</string>
+    <string name="price">25,00 Euros</string>
+    <string name="stop">STOP</string>
+    <string name="add">+</string>
+    <string name="send">Enviar</string>
+    <string name="pay">$</string>
+    <string name="question1">Valora con criterio el servicio</string>
+    <string name="question2">Valora con criterio la comida</string>
+    <string name="payment">Pagar</string>
+</resources>
